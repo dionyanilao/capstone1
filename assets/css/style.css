@@ -1,0 +1,340 @@
+/*@font-face{
+	font-family: "header";
+	src:url(../fonts/the wave.ttf);
+}*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'DM Serif Display', serif;
+}
+
+html{
+	scroll-behavior: smooth;
+
+}
+
+/*body{
+	overflow-x: hidden;
+}*/
+/*landing page*/
+#jumbo-land{
+	height: 100vh;
+	background-color: #333; /*off black*/
+	border-radius: 0;
+	letter-spacing: 1px;
+	
+	padding-top: 15%;
+	background-image: url(https://images.pexels.com/photos/403571/pexels-photo-403571.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+.jumbotron hr{
+	background-color: black;
+}
+.btn a{
+	text-decoration: none;
+	color: black;
+	font-size: 35px;
+	text-align: center;
+}
+.btn{
+	margin: 0 auto;
+}
+.btn:hover > a{
+	color: white;
+}
+
+#hland{
+	background-color: gray;
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	color: black;
+
+	border-radius: 5px;
+}
+
+	
+/*end landing page*/
+
+
+
+/*----------------------------------------------------------------------------------------*/
+
+/*/*homepage*/
+
+
+.header2{
+	margin-bottom: 20px;
+}
+
+.img1{
+	height: 275px;
+}
+
+.card{
+	height: 500px;
+	width: 400px;
+}
+.card2{	
+	height: 400px;
+	width: 400px;
+}
+
+
+.navbar{
+
+background-image: url(https://img.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg?size=626&ext=jpg);
+
+
+}
+#home-landing{
+/*	font-size: 5em;*/
+	/*height: 10px;*/
+
+}
+
+#landing1{
+	color: black;
+	padding: 100px;
+	/*background-color: #333;*/
+	background-image: url(https://images.pexels.com/photos/1669799/pexels-photo-1669799.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+
+
+	
+
+}
+
+#landing2{
+	color: black;
+	padding: 100px;
+	/*background-color: #333;*/
+		background-image: url(https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	/*background-image: url(https://images.pexels.com/photos/1669799/pexels-photo-1669799.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+
+
+	
+
+}
+
+footer{
+	margin-top: 100px;
+background-image:url( https://img.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg?size=626&ext=jpg);
+}
+
+
+
+
+.img-home{
+	height: 500px;
+	margin-bottom: 10px;
+}
+.col8{
+	margin-bottom: 20px;
+}
+
+h1{
+	border-radius: 0px;
+}
+.c2{
+	margin-top: 20px;
+}
+h5{
+	color: white;
+}
+.description{
+	color: white;
+}
+#h5{
+	color: black;
+}
+/*.description1{
+	color: black;
+}
+*/
+
+
+/*------------------------------------------------------------------------------
+
+about page*/
+
+#jumbotron-about{
+	background-image: url(https://images.pexels.com/photos/1571452/pexels-photo-1571452.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	height: 100vh;
+	border-radius: 0;
+	margin-bottom: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+#landing-about{
+	color: black;
+	font-size: 5em;
+	padding-top: 20vh;
+	letter-spacing: 5px;
+	font-family: header, sans-serif;
+}
+
+#mission{
+	height: 100%;
+	color: black;
+}
+#vision{
+	height: 100%;
+	color: black;
+}
+
+
+
+
+.about-tags{
+	font-weight: bold;
+}
+.logo{
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+
+/*------------------------------------------------------------*/
+/*contact*/
+
+#gmap{
+	width:100%;
+	display: block;
+	border:none;
+	height: 70vh;
+	border-radius: 10px;
+}
+
+
+
+
+
+.bg2{
+	background-image: url(https://img.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg?size=626&ext=jpg);
+}
+
+.logo2{
+	width: 50px;
+	height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------*/
+
+
+/*works and design*/
+
+.wd{
+	height: 	100vh;
+	background-image: 	url(https://freshome.com/wp-content/uploads/2018/01/decorator-living.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+
+}		
+#c4{
+	margin: 20px;
+}
+.design{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.img6{
+	height: 500px;
+}
+.img7{
+	height: 20px;
+}
+
+.back{
+	position: fixed;
+	bottom: 5%;
+	right: 5%;
+	color: gray;
+	z-index: 1;
+	
+
+}
+.h9:hover ~ .back{
+		z-index: -100;
+}
+.home1:hover ~.back{
+		z-index: -100;
+}
+.navbar:hover ~.back{
+	display: none;
+}
+
+.card:hover ~ .img1{
+	animation-direction: alternate;
+}
+.footer1{
+	letter-spacing: 1px;
+}
+.title{
+	background-color: lightgray;
+	margin-right: 0;
+	margin-left: 0;
+	text-align: center;
+	width: auto;
+
+}
+
+
+
+
+
+/*mobile*/
+@media only screen and (min-width: 401px) and (max-width:960px){
+
+.card{
+width: 100%;
+}
+#img2{
+	height: 175px;
+}
+#gmap{
+	height: 400px;
+}
+
+
+
+
+
+
+
+}
